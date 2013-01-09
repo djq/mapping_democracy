@@ -14,6 +14,11 @@ Summary: Using the location of public transport stops (Bus, Dart, Luas and Train
 
 ![test image](http://zooooooooooooooot.com/beastifier/ecce_homo.png)
 
+
+# test iframe #
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/EKoxLxzWNOk" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
 --
 
 [Discuss this post on Disqus](http://news.ycombinator.com/item?id=1627246)
