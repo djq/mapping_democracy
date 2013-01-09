@@ -17,8 +17,3 @@ Summary: Using the location of public transport stops (Bus, Dart, Luas and Train
 <iframe src="http://crime.mappingdemocracy.ie/1"style="width:610px;height:1285px;" frameborder="0" ></iframe>
 
 ![test image](http://zooooooooooooooot.com/beastifier/ecce_homo.png)
-
-
---
-
-[Discuss this post on Disqus](http://news.ycombinator.com/item?id=1627246)
