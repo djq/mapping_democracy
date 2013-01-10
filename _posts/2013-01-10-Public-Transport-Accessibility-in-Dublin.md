@@ -19,11 +19,14 @@ Using a 250m grid, the distance from every grid-cell to the nearest modes of tra
 
 # Explore the Nearest Public Transport to your House #
 
-Using a custom built tool you can enter your address into the search bar and the route to the closest station is shown.
+Using this tool you can enter your address into the search bar and find the route to the closest public tranport station. This searches for the nearest bus, Luas, Dart or Rail stop and then calculates a route along the road network to see how far you need to travel.
 
 # How many people can access Public Transport by foot? #
 
-Using the assumption, that people are prepared to walk up to 500m to public transport, we can start to examine how many people are served by the network. Any 250m grid-cell where the centroid of the grid fell within a 500m road network distance was considered. In the worst case, the total distance would be 500m. From this we cann assess how much of Dublin is well served using this approach.
+Using this preliminary analysis we can start to examine how many people in Dublin are served by the network. The assumption used is that people are prepared to walk up to 625m to a public transport stop. From this we cann assess how much of Dublin is served by public transport using this approach. In the next article on this site I will be examining what people can access using public transport within 30 minutes of travelling.
+
+
+<!---Any 250m grid-cell where the centroid of the grid fell within a 500m road network distance was considered. In the worst case, the total distance would be 500m.  --->
 
 <!---
 # test iframe #
