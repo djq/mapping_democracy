@@ -14,12 +14,14 @@ Using the location of public transport stops (Bus, Dart, Luas and Train) I explo
 
 # Average Distances to Public Transport #
 
-Using a 250m grid, the distance from every grid-cell to the nearest modes of transport were calculated. This treats Dublin Bus, LUAS, DART and Irish Rail all equally. Each mode does have a very different _reach_ so this is a preliminary assessment of accesbility.
+Using a 250m grid, the distance from every grid-cell to the nearest modes of transport were calculated. This treats Dublin Bus, LUAS, DART and Irish Rail all equally. Each mode does have a very different _reach_ so this is a preliminary assessment of accessibility.
 
 
 # Explore the Nearest Public Transport to your House #
 
 Using this tool you can enter your address into the search bar and find the route to the closest public tranport station. This searches for the nearest bus, Luas, Dart or Rail stop and then calculates a route along the road network to see how far you need to travel.
+<iframe src="http://ncg.urbmet.com/v6/routing.php"style="width:650px;height:500px;" frameborder="0" ></iframe>
+
 
 # How many people can access Public Transport by foot? #
 
