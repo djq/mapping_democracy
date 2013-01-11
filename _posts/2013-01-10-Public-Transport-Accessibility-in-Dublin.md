@@ -25,7 +25,7 @@ Using this tool you can enter your address into the search bar and find the rout
 
 # How many people can access Public Transport by foot? #
 
-Using this preliminary analysis we can start to examine how many people in Dublin are served by the network. The assumption used is that people are prepared to walk up to 625m to a public transport stop. From this we cann assess how much of Dublin is served by public transport using this approach. In the next article on this site I will be examining what people can access using public transport within 30 minutes of travelling.
+Using this preliminary analysis we can start to examine how many people in Dublin are served by the network. The assumption used is that people are prepared to walk up to [500m](http://www.humantransit.org/2011/04/basics-walking-distance-to-transit.html) to a public transport stop. From this we can assess how much of Dublin is served by public transport using this approach. In the next article on this site I will be examining what people can access using public transport within 30 minutes of travelling from each grid location.
 
 
 <!---Any 250m grid-cell where the centroid of the grid fell within a 500m road network distance was considered. In the worst case, the total distance would be 500m.  --->
