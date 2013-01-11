@@ -20,6 +20,10 @@
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "0f6c72ce-2d1b-4654-bf18-d5a50f05cb31"});</script>
 </head>
 <body>
 
@@ -53,35 +57,13 @@ var WRInitTime=(new Date()).getTime();
 
 
       <!--Social Sharing Things -->
-      <div style="width:650px">
-        <a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a>
-        <div class="g-plusone" data-size="medium" data-count="true"></div>
-        <div id="fb-root"></div>
-        <div class="fb-like" data-send="false" data-layout="button_count" data-width="1" data-show-faces="false" data-action="recommend"></div>
-    </div>
+      <span class='st_sharethis_large' displayText='ShareThis'></span>
+      <span class='st_facebook_large' displayText='Facebook'></span>
+      <span class='st_twitter_large' displayText='Tweet'></span>
+      <span class='st_linkedin_large' displayText='LinkedIn'></span>
+      <span class='st_pinterest_large' displayText='Pinterest'></span>
+      <span class='st_email_large' displayText='Email'></span>
 
-
-      <script>(function(doc, script) {
-    var js, 
-        fjs = doc.getElementsByTagName(script)[0],
-        frag = doc.createDocumentFragment(),
-        add = function(url, id) {
-            if (doc.getElementById(id)) {return;}
-            js = doc.createElement(script);
-            js.src = url;
-            id && (js.id = id);
-            frag.appendChild( js );
-        };
-        
-      // Google+ button
-      add('http://apis.google.com/js/plusone.js');
-      // Facebook SDK
-      add('//connect.facebook.net/en_US/all.js#xfbml=1&appId=200103733347528', 'facebook-jssdk');
-      // Twitter SDK
-      add('//platform.twitter.com/widgets.js');
-
-      fjs.parentNode.insertBefore(frag, fjs);
-  }(document, 'script'));</script>    
 
 
       <!-- disqus -->
