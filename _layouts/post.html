@@ -53,49 +53,38 @@ var WRInitTime=(new Date()).getTime();
 
 
       <!--Social Sharing Things -->
-      <p><a href="https://twitter.com/share" class="twitter-share-button" data-via="djq">Tweet</a>  <!-- Twitter + -->      
-      <g:plusone size="medium"></g:plusone> <!-- Google + -->
-      <div class="fb-like" data-href="http://mappingdemocracy.ie{{ page.url }}" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true"></div><!--fb -->
-         <script type="text/javascript" src="http://www.reddit.com/buttonlite.js?i=2&styled=on&url=http://mappingdemocracy.ie{{ page.url }}&newwindow=1"></script>  <!--reddit -->
-    </p>
-      
-      
- 
-<!-- Add this just before the closing body tag of your web page --> 
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a>
 
-     
- 
-        <!-- Put this just before the closing body tag -->
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-         
-        <!-- GOOGLE Add this just before the closing body tag of your web page --> 
-       <script type="text/javascript">
-      (function() {
-        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-        po.src = 'https://apis.google.com/js/plusone.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-      })();
-</script>
+<div class="g-plusone" data-size="medium" data-count="true"></div>
+
+<div id="fb-root"></div>
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="1" data-show-faces="false" data-action="recommend"></div>
 
     <!--facebook -->
     <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
 
+    
+    <script>(function(doc, script) {
+  var js, 
+      fjs = doc.getElementsByTagName(script)[0],
+      frag = doc.createDocumentFragment(),
+      add = function(url, id) {
+          if (doc.getElementById(id)) {return;}
+          js = doc.createElement(script);
+          js.src = url;
+          id && (js.id = id);
+          frag.appendChild( js );
+      };
+      
+    // Google+ button
+    add('http://apis.google.com/js/plusone.js');
+    // Facebook SDK
+    add('//connect.facebook.net/en_US/all.js#xfbml=1&appId=200103733347528', 'facebook-jssdk');
+    // Twitter SDK
+    add('//platform.twitter.com/widgets.js');
 
-     
+    fjs.parentNode.insertBefore(frag, fjs);
+}(document, 'script'));</script>    
 
 
       <!-- disqus -->
